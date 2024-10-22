@@ -34,7 +34,7 @@ const Projects = () => (
           <BlogCard key={i}>
             <Img src={p.images} alt="img" />
             <TitleContent>
-              <HeaderThree title>{p.title}</HeaderThree>
+              <HeaderThree >{p.title}</HeaderThree>
               <Hr />
             </TitleContent>
             <CardInfo className="card-info" style={{ whiteSpace: "pre-line" }}>

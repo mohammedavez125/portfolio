@@ -1,9 +1,10 @@
 import React from "react";
 
 import { ButtonBack, ButtonFront } from "./index";
+import Link from "next/link";
 
 const Button = (props) => (
-  <a
+  <Link
     href="https://www.linkedin.com/in/mohammed-avez-0a0265226/"
     target="_blank"
     rel="noopener noreferrer"
@@ -18,7 +19,7 @@ const Button = (props) => (
         {props.children}
       </ButtonFront>
     </ButtonBack>
-  </a>
+  </Link>
 );
 
 export default Button;

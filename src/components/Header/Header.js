@@ -23,9 +23,9 @@ const Header = () => (
   >
     <Div1>
       <Link href="/">
-        <a style={{ display: "flex", alignItems: "center", color: "white" }}>
+        <div style={{ display: "flex", alignItems: "center", color: "white" }}>
           <DiCssdeck size="3rem" /> <span>mohammedavez125</span>
-        </a>
+        </div>
       </Link>
     </Div1>
     <Div2>
@@ -45,13 +45,13 @@ const Header = () => (
         </Link>
       </li>
       <li>
-        <NavLink
+        <Link
           href="https://www.canva.com/design/DAGJj3Te6VM/4oxN7uNPf6enPzEzAknolQ/edit?utm_content=DAGJj3Te6VM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Resume
-        </NavLink>
+          <NavLink>Resume</NavLink>
+        </Link>
       </li>
     </Div2>
     <Div3>
@@ -68,13 +68,6 @@ const Header = () => (
         rel="noopener noreferrer"
       >
         <AiFillLinkedin size="3rem" />
-      </SocialIcons>
-      <SocialIcons
-        href="https://www.instagram.com/avez__01/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <AiFillInstagram size="3rem" />
       </SocialIcons>
     </Div3>
   </Container>
